@@ -1,6 +1,59 @@
-// .index-title {
-//   font-size: 100px;
-// }
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* rwd img css，可當作是 CSS Reset 其中一個 */
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 body{
   line-height: 1.5;
 }
@@ -53,28 +106,15 @@ body{
   .pr-32{
     padding-right: 32px;
   }
-  .mb-32{
-    margin-bottom: 32px;
-  }
-  .mb-40{
-    margin-bottom: 40px;
-    @media(max-width:375px) {
-      margin-bottom: 24px;
-    }
-  }
   .pr-48{
     padding-right: 48px;
   }
   .pr-64{
     padding-right: 64px;
   }
-  .pr-24{
-    padding-right: 24px;
-  }
   .pb-24{
     padding-bottom: 24px;
   }
-  
 
   a{
     text-decoration: none;
@@ -103,30 +143,20 @@ body{
   .flex{
     display: flex;
   }
+
+  
+
+
+
+
+
+
+  
   .policy{
     display: flex;
   }
-  .copyright{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    justify-content: space-between;
-    color: white;
-    flex-wrap: wrap;
-  }
-  .copyright p{
-    margin-bottom: 8px;
-  }
-  @media(max-width: 375px){
-    .copyright{
-      flex-direction: column;
-    }
-    .policy{
-      display: block;
-    }
-    .copyright li{
-      margin-bottom: 8px;
-    }
-  }
+
+
   h1:hover{
     opacity: 0.9;
   }
@@ -182,6 +212,7 @@ body{
       width: 348px;
     }
   }
+
   .item-title{
     text-align: center;
     font-size: 48px;
@@ -210,6 +241,7 @@ body{
   .jointly-sm-img{
     display: none;
   }
+
   @media(max-width: 375px){
     .jointly-img{
       display: none;
@@ -244,6 +276,7 @@ body{
       font-size: 20px;
     }
   } */
+
   .head-img{
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
     background-size: cover;
@@ -304,14 +337,13 @@ body{
   .flex-wrap{
     flex-wrap: wrap;
   }
+
   @media (max-width:375px){
     .col-sm-12{
       width: 100%;
     }
-    .sm-flex-wrap{
-      flex-wrap: wrap;
-    }
   }
+
   .cus-div{
     min-height: 200px;
     padding: 16px;
@@ -357,9 +389,4 @@ body{
     margin: 0 auto;
     text-align: center;
     margin-top: 48px;
-  }
-  @media(max-width:768px){
-    // .md-d-flex{
-    //   display: flex;
-    // }
   }

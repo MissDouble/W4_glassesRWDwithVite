@@ -1,4 +1,70 @@
+// .header{
+//   background: #69F0AE;
+//   font-size: 64px;
+// }
+
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-size: 20px;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  flex-wrap: wrap;
+
+  @media (max-width:768px){
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    padding-bottom: 0;
+  }
+}
+.logo{
+  display: block;
+  width: 80px;
+  height: 49px;
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
+  background-size: contain;
+  text-indent: 101px;
+  white-space: nowrap;
+  overflow: hidden;
+  @media (max-width:768px){
+    margin-left: 16px;
+  }
+}
+.menu{
+  flex-wrap: wrap;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media(max-width:768px){
+
+  .pr-64{
+    padding-right: 0;
+  }
+  .menu{
+
+    /* margin: 0 auto; */
+    margin-top: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+
+  }
+  .menu li{
+    width: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    /* padding: 0; */
+  }
+  .nav-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+}
+
+.menu a{
+  color: white;
 }
