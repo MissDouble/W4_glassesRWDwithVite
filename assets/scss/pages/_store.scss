@@ -23,20 +23,32 @@
     color: #495057;
 }
 .storeImg-container{
-    max-height: 224px;
-    overflow: hidden;
+    // max-height: 224px;
+    // overflow: hidden;
+}
+.store-mb{
+    margin-bottom: 80px;
+    @media(max-width:375px) {
+        margin-bottom: 64px;
+    }
 }
 .storeImg{
-
+    object-fit: cover;
+    height: 224px;
+    width: 100%;
+    overflow: hidden;
 }
 .storeMap{
     max-width: 746px;
-    max-height: 414px;
+    // max-height: 414px;
     object-fit: contain;
 }
 .store-title{
     margin-bottom: 32px;
-    margin-top: 176px;
+    margin-top: 96px;
+    @media(max-width:768px) {
+        margin-top: 80px;
+    }
     @media(max-width:375px) {
         margin-bottom: 24px;
         margin-top: 40px;
@@ -79,6 +91,13 @@
             flex-wrap: wrap;
             display: block;
         }
+    }
+    .md-mb-24{
+        margin-bottom: 24px;
+    }
+    .md-px-0{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
