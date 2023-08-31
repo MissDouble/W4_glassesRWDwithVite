@@ -1,108 +1,4 @@
-// .index-title {
-//   font-size: 100px;
-// }
-body{
-  line-height: 1.5;
-}
-  /* 全域 border box */
-  
-  *,*::before,*::after{
-    box-sizing: border-box;
-  }
-  /* 主體 CSS */
-  .col-1{
-    width: 8.33%;
-  }
-  .col-2{
-    width: 16.66%;
-  }
-  .col-3{
-    width:25%;
-  }
-  .col-4{
-    width:33.33%;
-  }
-  .col-5{
-    width:41.66%;
-  }
-  .col-6{
-    width:50%;
-  }
-  .col-7{
-    width: 58.33%;
-  }
-  .col-8{
-    width: 66.66%;
-  }
-  .col-9{
-    width: 75%;
-  }
-  .col-10{
-    width: 83.33%;
-  }
-  .col-11{
-    width: 91.66%;
-  }
-  .col-12{
-    width: 100%;
-  }
-  .px-3{
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .pr-32{
-    padding-right: 32px;
-  }
-  .mb-32{
-    margin-bottom: 32px;
-  }
-  .mb-40{
-    margin-bottom: 40px;
-    @media(max-width:375px) {
-      margin-bottom: 24px;
-    }
-  }
-  .pr-48{
-    padding-right: 48px;
-  }
-  .pr-64{
-    padding-right: 64px;
-  }
-  .pr-24{
-    padding-right: 24px;
-  }
-  .pb-24{
-    padding-bottom: 24px;
-  }
-  
-
-  a{
-    text-decoration: none;
-  }
-  body{
-    font-family: 'Roboto', 'Noto Sans TC', san-serif ;
-  }
-
-  .container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding-right: 12px;
-    padding-left: 12px;
-    @media(max-width: 768px){
-      max-width: 720px;
-    }
-    @media(max-width: 375px){
-      max-width: 372px;
-  }
-  }
-  .row{
-    margin-left: -12px;
-    margin-right: -12px;
-    display: flex;
-  }
-  .flex{
-    display: flex;
-  }
+      /* 主體 CSS */
   .policy{
     display: flex;
   }
@@ -127,12 +23,7 @@ body{
       margin-bottom: 8px;
     }
   }
-  h1:hover{
-    opacity: 0.9;
-  }
-  li:hover{
-    opacity: 0.8;
-  }
+
   .padding{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -194,12 +85,7 @@ body{
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
     background-size: cover;
   }
-  .white{
-    color: white;
-  }
-  .white-bg{
-    background-color: #fff;
-  }
+
   /* .jointly-img{
 
     @media(max-width:768px) {
@@ -251,11 +137,11 @@ body{
     text-align: right;
     padding-top: 296px;
     padding-bottom: 296px;
-    @media (max-width:375px){
-    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
-    padding-top: 144px;
-    padding-bottom: 144px;   
-    }
+      @media (max-width:375px){
+      background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+      padding-top: 144px;
+      padding-bottom: 144px;   
+      }
   }
   .head-title{
     font-size: 64px;
@@ -279,39 +165,6 @@ body{
     padding: 6px 12px;
     margin-top: 4px;
   }
-  @media (max-width:992px) {
-    .col-lg-12{
-      width: 100%;
-    }
-  }
-  @media (max-width:768px) {
-    .col-md-6{
-      width: 50%;
-    }
-    .col-md-12{
-      width: 100%;
-    }
-    .mb-md-24{
-      margin-bottom: 24px;
-    }
-    .row{
-      flex-wrap: wrap;
-    }
-    .md-flex-wrap{
-      flex-wrap: wrap;
-    }
-  }
-  .flex-wrap{
-    flex-wrap: wrap;
-  }
-  @media (max-width:375px){
-    .col-sm-12{
-      width: 100%;
-    }
-    .sm-flex-wrap{
-      flex-wrap: wrap;
-    }
-  }
   .cus-div{
     min-height: 200px;
     padding: 16px;
@@ -332,18 +185,7 @@ body{
   .form{
     justify-content: center;
   }
-  .font-family-form{
-    font-family: 'Roboto', 'Noto Sans TC', san-serif ;
-  }
-  .font-family{
-    font-family: 'Roboto', 'Noto Sans TC', san-serif ;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    background: none;
-    border: 1px solid #000;
-    padding: 6px 12px;
-    font-size: 16px;
-  }
+
   .checkbox{
     margin-top: 0;
     margin-bottom: 0;
@@ -357,7 +199,4 @@ body{
     margin: 0 auto;
     text-align: center;
     margin-top: 48px;
-  }
-  @media(max-width:768px){
-
   }

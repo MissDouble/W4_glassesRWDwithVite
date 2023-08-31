@@ -1,30 +1,11 @@
-.fz-48{
-    font-size: 48px;
-}
-.fw-bold{
-    font-weight: bold;
-}
-.border-left{
-    border-left: 8px solid #9F1213;
-}
-.fz-20{
-    font-size: 20px;
-}
-.fz-24{
-    font-size: 24px;
-}
-.fz-18{
-    font-size: 18px;
-}
 .select{
     width: 304px;
 }
 .select-color{
     color: #495057;
 }
-.storeImg-container{
-    // max-height: 224px;
-    // overflow: hidden;
+.border-left{
+    border-left: 8px solid #9F1213;
 }
 .store-mb{
     margin-bottom: 80px;
@@ -32,16 +13,16 @@
         margin-bottom: 64px;
     }
 }
-.storeImg{
+.store-Img{
     object-fit: cover;
     height: 224px;
     width: 100%;
     overflow: hidden;
 }
-.storeMap{
+.store-Map{
     max-width: 746px;
     // max-height: 414px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .store-title{
     margin-bottom: 32px;
@@ -54,22 +35,8 @@
         margin-top: 40px;
     }
 }
-.mb-80{
-    margin-bottom: 80px;
-}
-.mr-16{
-    margin-right: 16px;
-}
-.pb-8{
-    padding-bottom: 8px;
-}
-.pl-16{
-    padding-left: 16px;
-}
-.pl-8{
-    padding-left: 8px;
-}
-.storeName{
+
+.store-Name{
     padding: 8px 24px;
 }
 .store-info{
@@ -78,36 +45,6 @@
 .store-border{
     border: 1px solid #00000020;
 }
-@media(max-width:768px) {
-    .md-px-3{
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-    .md-row{
-        margin-left: -12px;
-        margin-right: -12px;
-        display: flex;
-        @media (max-width:375px) {
-            flex-wrap: wrap;
-            display: block;
-        }
-    }
-    .md-mb-24{
-        margin-bottom: 24px;
-    }
-    .md-px-0{
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
-.row{
-    margin-left: -12px;
-    margin-right: -12px;
-    display: flex;
-    @media(max-width:375px) {
-        margin-left: 0;
-        margin-right: 0;
-        display: block;
-    }
-  }
+
+

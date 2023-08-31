@@ -1,0 +1,187 @@
+    /* 全域設定 */
+    body{
+     line-height: 1.5;
+    }
+    a{
+     text-decoration: none;
+    }
+    .flex{
+        display: flex;    
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    h1:hover{
+    opacity: 0.9;
+    }
+    li:hover{
+    opacity: 0.8;
+    }
+    .white{
+        color: white;
+    }
+    .white-bg{
+    background-color: #fff;
+    }
+    
+    /* 全域 border box */
+    
+    *,*::before,*::after{
+      box-sizing: border-box;
+    }
+    /* 全域 container */
+    .container{
+        max-width: 1320px;
+        margin: 0 auto;
+        padding-right: 12px;
+        padding-left: 12px;
+        @media(max-width: 768px){
+          max-width: 720px;
+        }
+        @media(max-width: 375px){
+          max-width: 372px;
+      }
+      }
+    .row{
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    }
+    /* 全域 RWD col */
+    .col-1{
+        width: 8.33%;
+        }
+        .col-2{
+        width: 16.66%;
+        }
+        .col-3{
+        width:25%;
+        }
+        .col-4{
+        width:33.33%;
+        }
+        .col-5{
+        width:41.66%;
+        }
+        .col-6{
+        width:50%;
+        }
+        .col-7{
+        width: 58.33%;
+        }
+        .col-8{
+        width: 66.66%;
+        }
+        .col-9{
+        width: 75%;
+        }
+        .col-10{
+        width: 83.33%;
+        }
+        .col-11{
+        width: 91.66%;
+        }
+        .col-12{
+        width: 100%;
+        }
+        .px-3{
+        padding-left: 12px;
+        padding-right: 12px;
+        }
+            /* 全域 margin padding */
+        .mb-80{
+            margin-bottom: 80px;
+        }
+        .mb-40{
+            margin-bottom: 40px;
+        }
+        .mb-32{
+            margin-bottom: 32px;
+            }
+        .mr-16{
+            margin-right: 16px;
+        }
+        .pl-16{
+            padding-left: 16px;
+        }
+        .pl-8{
+            padding-left: 8px;
+        }
+        .pr-64{
+        padding-right: 64px;
+        }
+        .pr-48{
+        padding-right: 48px;
+        }
+        .pr-32{
+            padding-right: 32px;
+        }
+        .pr-24{
+        padding-right: 24px;
+        }
+        .pb-24{
+        padding-bottom: 24px;
+        }
+        .pb-8{
+            padding-bottom: 8px;
+        }
+    @media (max-width:992px) {
+        .col-lg-12{
+          width: 100%;
+        }
+    }
+    /* 全域 平版 container */
+    @media(max-width:768px) {
+        .md-px-3{
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+        .md-row{
+            margin-left: -12px;
+            margin-right: -12px;
+            display: flex;
+            @media (max-width:375px) {
+                flex-wrap: wrap;
+                display: block;
+            }
+        }
+        .md-mb-24{
+            margin-bottom: 24px;
+        }
+        .md-px-0{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .col-md-6{
+            width: 50%;
+        }
+        .col-md-12{
+        width: 100%;
+        }
+        .mb-md-24{
+        margin-bottom: 24px;
+        }
+        .md-flex-wrap{
+        flex-wrap: wrap;
+        }
+    }
+
+
+    /* 全域 手機版 container */
+    @media(max-width:375px) {
+        .sm-remove-row{
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+        }
+        .sm-mb-24{
+        margin-bottom: 24px;
+        }
+        .col-sm-12{
+        width: 100%;
+        }
+        .sm-flex-wrap{
+        flex-wrap: wrap;
+        }
+    }
+      
