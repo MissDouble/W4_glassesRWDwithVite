@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>門市據點</title>
+    <title data-aos="fade-right">門市據點</title>
 </head>
   <body>
     <%- include('./layout/header'); -%>
-    <div class="container store-mb">
+    <div data-aos="fade-right" class="container store-mb">
         <h1 class="fz-48 fw-bold border-left pl-16 store-title">門市據點</h1>
         <div class="col-sm-12 select flex mb-40 sm-mb-24">
             <p class="fz-24 mr-16">選擇分店</p>
@@ -25,7 +25,7 @@
                 <option>台北中山旗艦店</option>
             </select>
         </div>
-        <div class="row sm-remove-row flex-wrap">
+        <div data-aos="fade-right" class="row sm-remove-row flex-wrap">
             <div class="col-5 col-md-12 col-sm-12 px-3 sm-flex-wrap md-px-0 md-row md-mb-24">
                 <div class="col-md-6 col-sm-12 md-px-3">
                     <img class="store-Img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" alt="">
@@ -45,10 +45,13 @@
                     </ul>
                 </div>
             </div>
-            <img class="col-7 col-md-12 px-3 store-Map" src="../assets/images/storemap2x.png" alt="">
+            <img data-aos="fade-left" class="col-7 col-md-12 px-3 store-Map" src="../assets/images/storemap2x.png" alt="">
         </div>
     </div>
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>
